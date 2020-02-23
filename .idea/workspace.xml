@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df480789-e29a-4c61-8064-7b27e664044d" name="Default Changelist" comment="ini">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="df480789-e29a-4c61-8064-7b27e664044d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/app.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,11 +21,20 @@
   <component name="FavoritesManager">
     <favorites_list name="react-app" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YB9vjDEXEUQLKnyTIFraoICnxY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -33,10 +49,21 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -49,6 +76,22 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.test" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -60,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582405352505</updated>
-      <workItem from="1582405353981" duration="1039000" />
+      <workItem from="1582405353981" duration="3587000" />
     </task>
     <task id="LOCAL-00001" summary="ini">
       <created>1582405767972</created>
@@ -69,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582405767972</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ignore">
+      <created>1582406452003</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582406452004</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,28 +127,33 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ini" />
-    <option name="LAST_COMMIT_MESSAGE" value="ini" />
+    <MESSAGE value="ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="ignore" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="434" y="139" key="CommitChangelistDialog2" timestamp="1582405890933">
+    <state x="434" y="139" key="CommitChangelistDialog2" timestamp="1582406451824">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="434" y="139" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1582405890933" />
-    <state width="1638" height="116" key="GridCell.Tab.0.bottom" timestamp="1582405817906">
+    <state x="434" y="139" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1582406451824" />
+    <state width="1638" height="116" key="GridCell.Tab.0.bottom" timestamp="1582421233143">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="116" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1582405817906" />
-    <state width="1638" height="116" key="GridCell.Tab.0.center" timestamp="1582405817905">
+    <state width="1638" height="116" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1582421233143" />
+    <state width="1638" height="116" key="GridCell.Tab.0.center" timestamp="1582421233142">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="116" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1582405817905" />
-    <state width="1638" height="116" key="GridCell.Tab.0.left" timestamp="1582405817904">
+    <state width="1638" height="116" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1582421233142" />
+    <state width="1638" height="116" key="GridCell.Tab.0.left" timestamp="1582421233141">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="116" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1582405817904" />
-    <state width="1638" height="116" key="GridCell.Tab.0.right" timestamp="1582405817905">
+    <state width="1638" height="116" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1582421233141" />
+    <state width="1638" height="116" key="GridCell.Tab.0.right" timestamp="1582421233142">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="116" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1582405817905" />
+    <state width="1638" height="116" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1582421233142" />
+    <state x="349" y="175" key="SettingsEditor" timestamp="1582421165814">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="349" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1582421165814" />
   </component>
 </project>
