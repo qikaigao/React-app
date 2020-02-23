@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df480789-e29a-4c61-8064-7b27e664044d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/comment-item/comment-item.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/comment-add/comment-add.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/comment-add/comment-add.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/comment-item/comment-item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/comment-item/comment-item.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/comment-list/comment-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/comment-list/comment-list.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/comment-list/comment-list.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/comment-list/comment-list.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +50,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
@@ -121,7 +116,8 @@
       <updated>1582405352505</updated>
       <workItem from="1582405353981" duration="11150000" />
       <workItem from="1582431650050" duration="1461000" />
-      <workItem from="1582433123651" duration="2319000" />
+      <workItem from="1582433123651" duration="4765000" />
+      <workItem from="1582445897153" duration="1400000" />
     </task>
     <task id="LOCAL-00001" summary="ini">
       <created>1582405767972</created>
@@ -151,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582431900699</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add comment">
+      <created>1582435496058</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582435496058</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +165,8 @@
     <MESSAGE value="ignore" />
     <MESSAGE value="脚手架" />
     <MESSAGE value="css" />
-    <option name="LAST_COMMIT_MESSAGE" value="css" />
+    <MESSAGE value="add comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="add comment" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="346" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582422514788">
@@ -173,29 +177,29 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="578" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1582431719984" />
-    <state x="434" y="139" key="CommitChangelistDialog2" timestamp="1582431900489">
+    <state x="434" y="139" key="CommitChangelistDialog2" timestamp="1582435495879">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="434" y="139" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1582431900489" />
-    <state width="1405" height="116" key="GridCell.Tab.0.bottom" timestamp="1582433269783">
+    <state x="434" y="139" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1582435495879" />
+    <state width="1638" height="254" key="GridCell.Tab.0.bottom" timestamp="1582447476001">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1405" height="116" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1582433269783" />
-    <state width="1405" height="116" key="GridCell.Tab.0.center" timestamp="1582433269782">
+    <state width="1638" height="254" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1582447476001" />
+    <state width="1638" height="254" key="GridCell.Tab.0.center" timestamp="1582447476000">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1405" height="116" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1582433269782" />
-    <state width="1405" height="116" key="GridCell.Tab.0.left" timestamp="1582433269781">
+    <state width="1638" height="254" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1582447476000" />
+    <state width="1638" height="254" key="GridCell.Tab.0.left" timestamp="1582447475999">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1405" height="116" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1582433269781" />
-    <state width="1405" height="116" key="GridCell.Tab.0.right" timestamp="1582433269782">
+    <state width="1638" height="254" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1582447475999" />
+    <state width="1638" height="254" key="GridCell.Tab.0.right" timestamp="1582447476001">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1405" height="116" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1582433269782" />
-    <state x="349" y="175" key="SettingsEditor" timestamp="1582433197817">
+    <state width="1638" height="254" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1582447476001" />
+    <state x="349" y="175" key="SettingsEditor" timestamp="1582447504343">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="349" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1582433197817" />
+    <state x="349" y="175" key="SettingsEditor/0.23.1680.1027@0.23.1680.1027" timestamp="1582447504343" />
   </component>
 </project>
