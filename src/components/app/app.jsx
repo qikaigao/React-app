@@ -1,74 +1,40 @@
 import React,{Component} from "react";
-import CommentAdd from "../comment-add/comment-add";
-import CommentList from "../comment-list/comment-list";
-import PubSub from 'pubsub-js';
+import {NavLink, Switch,Route,Redirect} from 'react-router-dom';
+import About from '../../views/about/about';
+import Home from '../../views/home/home';
+import MyNavLink from '../../components/MyNavLink/MyNavLink';
 
 class App extends Component{
-
-    //  // 给组件对象指定state属性
-    // constructor(props) {
-    //     super(props);
-    //
-    //     this.state = {
-    //         comments: [
-    //             {username:'Tom', content:'React挺好的！'},
-    //             {username:'Jack', content:'React太难了！'},
-    //             {username:'Ross', content:'React so easy！'},
-    //         ]
-    //     }
-    // }
-
-    state = {
-        comments: [
-            {username:'Tom', content:'React挺好的！'},
-            {username:'Jack', content:'React太难了！'},
-            {username:'Ross', content:'React so easy！'},
-        ]
-    };
-
-    componentDidMount() {
-        // 订阅消息(deleteComment)
-        PubSub.subscribe('deleteComment', (msg,index) => {
-            this.deleteComment(index);
-        });
-    }
-
-    //添加评论
-    addComment = (comment) => {
-        const {comments} = this.state;
-        comments.unshift(comment);
-        // 更新状态
-        this.setState({comments})
-    };
-
-    //删除指定评论
-    deleteComment = (index) => {
-        const {comments} = this.state;
-        comments.splice(index,1);// 删除
-         // 更新状态
-        this.setState({comments})
-    };
-
     render() {
-        const {comments} = this.state;
         return (
-            <div>
-                <header className='site-header jumbotron'>
-                    <div className='container'>
-                        <div className='row'>
-                            <div className='col-xs-12'>
-                                <h1>请发表对React的评论</h1>
+            <div className='container'>
+                <div className='row justify-content-xs-center'>
+                    <div className='col-xs-8 col'>
+                        <div className='pb-2 mt-4 mb-2 border-bottom'><h2>React Router Demo</h2></div>
+                    </div>
+                </div>
+
+                <div className='row'>
+                    <div className='col-xs-2 offset-xs-2'>
+                        <div className='list-group' >
+                            <MyNavLink className='list-group-item' to='/about' >About</MyNavLink>
+                            <MyNavLink className='list-group-item ' to='/home' >Home</MyNavLink>
+                        </div>
+                    </div>
+                    <div className='col-xs-6 col'>
+                        <div className='card'>
+                            <div className='card-body'>
+                                <Switch>
+                                    <Route path="/about"><About /></Route>
+                                    <Route path="/home"><Home /></Route>
+                                    <Redirect to="/home"/>
+                                </Switch>
                             </div>
                         </div>
                     </div>
-                </header>
-                <div className='container'>
-                    <div className='row'>
-                        <CommentAdd addComment={this.addComment}/>
-                        <CommentList comments={comments} deleteComment={this.deleteComment}/>
-                    </div>
 
                 </div>
+
             </div>
         )
     };
