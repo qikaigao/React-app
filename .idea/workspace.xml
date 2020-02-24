@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df480789-e29a-4c61-8064-7b27e664044d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src-users/components/app/app.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-users/components/main/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-users/components/main/main.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-users/components/search/search.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-users/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src-users-pubsub/components/app/app.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src-users-pubsub/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/comment-add/comment-add.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/comment-item/comment-item.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/comment-item/comment-item.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/comment-list/comment-list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/comment-list/comment-list.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/search/search.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search/search.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src-users-pubsub/components/main/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src-users-pubsub/components/main/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/search/search.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src-users-pubsub/components/search/search.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -66,6 +67,7 @@
       <recent name="$PROJECT_DIR$/public" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/components/comment-list" />
     </key>
@@ -127,7 +129,7 @@
       <workItem from="1582445897153" duration="1586000" />
       <workItem from="1582482773228" duration="1149000" />
       <workItem from="1582487289191" duration="4758000" />
-      <workItem from="1582501998053" duration="4369000" />
+      <workItem from="1582501998053" duration="5642000" />
     </task>
     <task id="LOCAL-00001" summary="ini">
       <created>1582405767972</created>
@@ -185,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582506530973</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="pubsub implement for users">
+      <created>1582508008175</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1582508008175</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +209,8 @@
     <MESSAGE value="delete comment" />
     <MESSAGE value="search Github website using axios" />
     <MESSAGE value="pubsub init" />
-    <option name="LAST_COMMIT_MESSAGE" value="pubsub init" />
+    <MESSAGE value="pubsub implement for users" />
+    <option name="LAST_COMMIT_MESSAGE" value="pubsub implement for users" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="346" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582422514788">
@@ -215,10 +225,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="578" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1582431719984" />
-    <state x="434" y="139" key="CommitChangelistDialog2" timestamp="1582506530791">
+    <state x="434" y="139" key="CommitChangelistDialog2" timestamp="1582509509414">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="434" y="139" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1582506530791" />
+    <state x="434" y="139" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1582509509414" />
     <state width="1638" height="254" key="GridCell.Tab.0.bottom" timestamp="1582506391165">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
