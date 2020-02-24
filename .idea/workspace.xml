@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df480789-e29a-4c61-8064-7b27e664044d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src-comment-pubsub/components/app/app.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-comment-pubsub/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MyNavLink/MyNavLink.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/about/about.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/home/home.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/message-detail/message-detail.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/message/message.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/news/news.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MyNavLink/MyNavLink.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/my-nav-link/my-nav-link.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/comment-add/comment-add.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src-comment-pubsub/components/comment-add/comment-add.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/comment-item/comment-item.css" beforeDir="false" afterPath="$PROJECT_DIR$/src-comment-pubsub/components/comment-item/comment-item.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/comment-item/comment-item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src-comment-pubsub/components/comment-item/comment-item.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/comment-list/comment-list.css" beforeDir="false" afterPath="$PROJECT_DIR$/src-comment-pubsub/components/comment-list/comment-list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/comment-list/comment-list.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src-comment-pubsub/components/comment-list/comment-list.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/home/home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/home/home.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +126,7 @@
       <workItem from="1582445897153" duration="1586000" />
       <workItem from="1582482773228" duration="1149000" />
       <workItem from="1582487289191" duration="4758000" />
-      <workItem from="1582501998053" duration="10792000" />
+      <workItem from="1582501998053" duration="16435000" />
     </task>
     <task id="LOCAL-00001" summary="ini">
       <created>1582405767972</created>
@@ -206,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582509527508</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="react-router-dom basic knowledge">
+      <created>1582516474308</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1582516474308</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +222,8 @@
     <MESSAGE value="pubsub init" />
     <MESSAGE value="pubsub implement for users" />
     <MESSAGE value="Pubsub for commentdelete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pubsub for commentdelete" />
+    <MESSAGE value="react-router-dom basic knowledge" />
+    <option name="LAST_COMMIT_MESSAGE" value="react-router-dom basic knowledge" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="346" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582512141928">
@@ -238,10 +238,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="578" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1582431719984" />
-    <state x="434" y="139" key="CommitChangelistDialog2" timestamp="1582509527285">
+    <state x="434" y="139" key="CommitChangelistDialog2" timestamp="1582516474035">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="434" y="139" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1582509527285" />
+    <state x="434" y="139" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1582516474035" />
     <state width="1638" height="254" key="GridCell.Tab.0.bottom" timestamp="1582506391165">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>

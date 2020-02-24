@@ -1,8 +1,8 @@
 import React,{Component} from "react";
-import {NavLink, Switch,Route,Redirect} from 'react-router-dom';
+import {Switch,Route,Redirect} from 'react-router-dom';
 import About from '../../views/about/about';
 import Home from '../../views/home/home';
-import MyNavLink from '../../components/MyNavLink/MyNavLink';
+import MyNavLink from '../my-nav-link/my-nav-link';
 
 class App extends Component{
     render() {
