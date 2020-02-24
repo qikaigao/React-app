@@ -1,10 +1,13 @@
 import React,{Component} from "react";
 import PropTypes from 'prop-types';
-import PubSub from 'pubsub-js';
 import axios from 'axios';
 import './main.css';
 
 class Main extends Component{
+
+    static propTypes = {
+        searchName:PropTypes.string.isRequired
+    };
 
     state = {
         initView:true,
@@ -13,12 +16,13 @@ class Main extends Component{
         errorMsg:null
     };
 
-    componentDidMount() {
 
-    //    订阅消息( search )
-        PubSub.subscribe('search', (msg,searchName)=>{
-            console.log('ss')
-            // 更新状态(请求中)
+    // 当组件接受到新的属性时回掉
+    UNSAFE_componentWillReceiveProps(nextProps){ //指定了新的searchName， 需要请求
+         const {searchName} = nextProps;
+        // console.log(searchName);
+
+        // 更新状态(请求中)
         this.setState({
             initView:false,
             loading:true
@@ -35,7 +39,7 @@ class Main extends Component{
                     name:item.login,
                     url:item.html_url,
                     avatarUrl:item.avatar_url
-                }));
+                }))
                 console.log(users);
             //    更新状态
                 this.setState({loading:false,users})
@@ -44,46 +48,7 @@ class Main extends Component{
             .catch(error => {
                 this.setState({loading:false,errorMsg:error.message})
             })
-        });
-
     }
-
-
-
-
-    //
-    // // 当组件接受到新的属性时回掉
-    // UNSAFE_componentWillReceiveProps(nextProps){ //指定了新的searchName， 需要请求
-    //      const {searchName} = nextProps;
-    //     // console.log(searchName);
-    //
-    //     // 更新状态(请求中)
-    //     this.setState({
-    //         initView:false,
-    //         loading:true
-    //     });
-    //
-    //     // 发送ajax请求
-    //     const url = `https://api.github.com/search/users?q=${searchName}`;
-    //     axios.get(url)
-    //         .then(response => {
-    //         //    得到响应数据
-    //             const result = response.data;
-    //             // console.log(result);
-    //             const users = result.items.map(item => ({
-    //                 name:item.login,
-    //                 url:item.html_url,
-    //                 avatarUrl:item.avatar_url
-    //             }))
-    //             console.log(users);
-    //         //    更新状态
-    //             this.setState({loading:false,users})
-    //
-    //         })
-    //         .catch(error => {
-    //             this.setState({loading:false,errorMsg:error.message})
-    //         })
-    // }
 
     render() {
         const {initView, loading, users,errorMsg} = this.state;

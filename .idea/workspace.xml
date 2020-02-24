@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df480789-e29a-4c61-8064-7b27e664044d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src-users/components/app/app.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src-users/components/main/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src-users/components/main/main.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src-users/components/search/search.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src-users/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/search/search.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search/search.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,13 +61,13 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src/components/comment-list" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/css" />
       <recent name="$PROJECT_DIR$/public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/components/comment-list" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -117,7 +127,7 @@
       <workItem from="1582445897153" duration="1586000" />
       <workItem from="1582482773228" duration="1149000" />
       <workItem from="1582487289191" duration="4758000" />
-      <workItem from="1582501998053" duration="3043000" />
+      <workItem from="1582501998053" duration="4369000" />
     </task>
     <task id="LOCAL-00001" summary="ini">
       <created>1582405767972</created>
@@ -168,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582506436235</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="pubsub init">
+      <created>1582506530973</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1582506530973</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +199,8 @@
     <MESSAGE value="add comment" />
     <MESSAGE value="delete comment" />
     <MESSAGE value="search Github website using axios" />
-    <option name="LAST_COMMIT_MESSAGE" value="search Github website using axios" />
+    <MESSAGE value="pubsub init" />
+    <option name="LAST_COMMIT_MESSAGE" value="pubsub init" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="346" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582422514788">
@@ -197,10 +215,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="578" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1582431719984" />
-    <state x="434" y="139" key="CommitChangelistDialog2" timestamp="1582506435962">
+    <state x="434" y="139" key="CommitChangelistDialog2" timestamp="1582506530791">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="434" y="139" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1582506435962" />
+    <state x="434" y="139" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1582506530791" />
     <state width="1638" height="254" key="GridCell.Tab.0.bottom" timestamp="1582506391165">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
