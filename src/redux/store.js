@@ -1,13 +1,15 @@
-import {createStore, applyMiddleware} from "redux";
-import {counter} from "./reducers";
+/*
+redux 最核心的管理对象store
+ */
+
+import {createStore, applyMiddleware} from 'redux';
 import thunk from "redux-thunk";
+import {composeWithDevTools} from 'redux-devtools-extension';
+import {comments} from './reducers';
 
-import {composeWithDevTools} from "redux-devtools-extension";
 
-// 生成一个 store 对象
-const store = createStore(
-    counter,
-    composeWithDevTools(applyMiddleware(thunk)) // 应用异步中间件
-); // 内部会第一次调用reducer函数的到初始state
 
-export default store;
+export default createStore(
+    comments,
+    composeWithDevTools(applyMiddleware(thunk))
+);
