@@ -2,26 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df480789-e29a-4c61-8064-7b27e664044d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src-comment-react-async/components/app/app.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-comment-react-async/components/comment-add/comment-add.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-comment-react-async/components/comment-item/comment-item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-comment-react-async/components/comment-item/comment-item.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-comment-react-async/components/comment-list/comment-list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-comment-react-async/components/comment-list/comment-list.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-comment-react-async/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/comment-add/comment-add.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/comment-item/comment-item.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/comment-item/comment-item.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/comment-list/comment-list.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/comment-list/comment-list.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/app/app.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/counter.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/app.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/action-types.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/action-type.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/app/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/app/app.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
     </list>
@@ -142,7 +124,7 @@
       <workItem from="1582445897153" duration="1586000" />
       <workItem from="1582482773228" duration="1149000" />
       <workItem from="1582487289191" duration="4758000" />
-      <workItem from="1582501998053" duration="37202000" />
+      <workItem from="1582501998053" duration="37667000" />
     </task>
     <task id="LOCAL-00001" summary="ini">
       <created>1582405767972</created>
@@ -270,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582613045965</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="comment-react-redux-async">
+      <created>1582617635813</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1582617635813</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +284,8 @@
     <MESSAGE value="counter-redux" />
     <MESSAGE value="counter-react-redux" />
     <MESSAGE value="counter-react-redux-async" />
-    <option name="LAST_COMMIT_MESSAGE" value="counter-react-redux-async" />
+    <MESSAGE value="comment-react-redux-async" />
+    <option name="LAST_COMMIT_MESSAGE" value="comment-react-redux-async" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="346" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582512141928">
@@ -310,10 +300,10 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="578" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1582431719984" />
-    <state x="434" y="139" key="CommitChangelistDialog2" timestamp="1582613045655">
+    <state x="434" y="139" key="CommitChangelistDialog2" timestamp="1582617635615">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="434" y="139" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1582613045655" />
+    <state x="434" y="139" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1582617635615" />
     <state width="1638" height="254" key="GridCell.Tab.0.bottom" timestamp="1582613371077">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
