@@ -2,31 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df480789-e29a-4c61-8064-7b27e664044d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src-count-redux/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-count-redux/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-react-redux/components/counter.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-react-redux/containers/app.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-react-redux/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-react-redux/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-react-redux/redux/action-type.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-react-redux/redux/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-react-redux/redux/reducers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-react-redux/redux/store.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/counter.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/app.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/action-type.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src-redux-async/components/counter.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src-redux-async/containers/app.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src-redux-async/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src-redux-async/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src-redux-async/redux/action-type.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src-redux-async/redux/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src-redux-async/redux/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src-redux-async/redux/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src-count-redux/components/app/app.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/redux/action-type.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-count-redux/components/redux/action-type.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/redux/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-count-redux/components/redux/actions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/redux/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-count-redux/components/redux/reducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src-count-redux/components/redux/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/counter.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/counter.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/app.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +134,7 @@
       <workItem from="1582445897153" duration="1586000" />
       <workItem from="1582482773228" duration="1149000" />
       <workItem from="1582487289191" duration="4758000" />
-      <workItem from="1582501998053" duration="30366000" />
+      <workItem from="1582501998053" duration="32645000" />
     </task>
     <task id="LOCAL-00001" summary="ini">
       <created>1582405767972</created>
@@ -258,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582593497239</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="counter-react-redux">
+      <created>1582597062367</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1582597062367</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +278,8 @@
     <MESSAGE value="Ant Design Mobile UI" />
     <MESSAGE value="counter-react" />
     <MESSAGE value="counter-redux" />
-    <option name="LAST_COMMIT_MESSAGE" value="counter-redux" />
+    <MESSAGE value="counter-react-redux" />
+    <option name="LAST_COMMIT_MESSAGE" value="counter-react-redux" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="346" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582512141928">
@@ -296,26 +294,26 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="578" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1582431719984" />
-    <state x="434" y="139" key="CommitChangelistDialog2" timestamp="1582593496997">
+    <state x="434" y="139" key="CommitChangelistDialog2" timestamp="1582597062128">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="434" y="139" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1582593496997" />
-    <state width="1638" height="254" key="GridCell.Tab.0.bottom" timestamp="1582596680408">
+    <state x="434" y="139" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1582597062128" />
+    <state width="1638" height="254" key="GridCell.Tab.0.bottom" timestamp="1582612663113">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="254" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1582596680408" />
-    <state width="1638" height="254" key="GridCell.Tab.0.center" timestamp="1582596680407">
+    <state width="1638" height="254" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1582612663113" />
+    <state width="1638" height="254" key="GridCell.Tab.0.center" timestamp="1582612663112">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="254" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1582596680407" />
-    <state width="1638" height="254" key="GridCell.Tab.0.left" timestamp="1582596680405">
+    <state width="1638" height="254" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1582612663112" />
+    <state width="1638" height="254" key="GridCell.Tab.0.left" timestamp="1582612663111">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="254" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1582596680405" />
-    <state width="1638" height="254" key="GridCell.Tab.0.right" timestamp="1582596680407">
+    <state width="1638" height="254" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1582612663111" />
+    <state width="1638" height="254" key="GridCell.Tab.0.right" timestamp="1582612663113">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="254" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1582596680407" />
+    <state width="1638" height="254" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1582612663113" />
     <state x="349" y="175" key="SettingsEditor" timestamp="1582447504343">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
