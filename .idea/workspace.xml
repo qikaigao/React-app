@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="df480789-e29a-4c61-8064-7b27e664044d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/app/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/app/app.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,8 +101,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.test" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.test" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +122,9 @@
       <workItem from="1582445897153" duration="1586000" />
       <workItem from="1582482773228" duration="1149000" />
       <workItem from="1582487289191" duration="4758000" />
-      <workItem from="1582501998053" duration="37667000" />
+      <workItem from="1582501998053" duration="38092000" />
+      <workItem from="1582649866978" duration="90000" />
+      <workItem from="1582650396601" duration="1210000" />
     </task>
     <task id="LOCAL-00001" summary="ini">
       <created>1582405767972</created>
@@ -259,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582617635813</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="comment-react-redux-async-combine">
+      <created>1582618166059</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1582618166059</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,7 +292,8 @@
     <MESSAGE value="counter-react-redux" />
     <MESSAGE value="counter-react-redux-async" />
     <MESSAGE value="comment-react-redux-async" />
-    <option name="LAST_COMMIT_MESSAGE" value="comment-react-redux-async" />
+    <MESSAGE value="comment-react-redux-async-combine" />
+    <option name="LAST_COMMIT_MESSAGE" value="comment-react-redux-async-combine" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="346" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582512141928">
@@ -300,26 +308,26 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="578" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1582431719984" />
-    <state x="434" y="139" key="CommitChangelistDialog2" timestamp="1582617635615">
+    <state x="434" y="139" key="CommitChangelistDialog2" timestamp="1582618165917">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="434" y="139" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1582617635615" />
-    <state width="1638" height="254" key="GridCell.Tab.0.bottom" timestamp="1582613371077">
+    <state x="434" y="139" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1582618165917" />
+    <state width="1638" height="254" key="GridCell.Tab.0.bottom" timestamp="1582650450455">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="254" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1582613371077" />
-    <state width="1638" height="254" key="GridCell.Tab.0.center" timestamp="1582613371076">
+    <state width="1638" height="254" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1582650450455" />
+    <state width="1638" height="254" key="GridCell.Tab.0.center" timestamp="1582650450454">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="254" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1582613371076" />
-    <state width="1638" height="254" key="GridCell.Tab.0.left" timestamp="1582613371074">
+    <state width="1638" height="254" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1582650450454" />
+    <state width="1638" height="254" key="GridCell.Tab.0.left" timestamp="1582650450453">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="254" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1582613371074" />
-    <state width="1638" height="254" key="GridCell.Tab.0.right" timestamp="1582613371076">
+    <state width="1638" height="254" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1582650450453" />
+    <state width="1638" height="254" key="GridCell.Tab.0.right" timestamp="1582650450454">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="254" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1582613371076" />
+    <state width="1638" height="254" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1582650450454" />
     <state x="349" y="175" key="SettingsEditor" timestamp="1582447504343">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>

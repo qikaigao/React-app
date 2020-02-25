@@ -1,6 +1,6 @@
 # This Project is the Learning Project for React.
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+This project includes several subprojects. The folders named by src-xxx are different src for different subprojects.
+You can change those folders'name to src to check the result.
 ## Available Scripts
 
 In the project directory, you can run:
