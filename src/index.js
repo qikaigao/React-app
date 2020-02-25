@@ -1,31 +1,23 @@
 import React from "react";
-import {render} from "react-dom";
-import App from "./components/app/app";
+import ReactDOM from "react-dom";
 import {BrowserRouter} from 'react-router-dom';
+import store from "./components/redux/store";
+
+import App from "./components/app/app";
 
 
-render(
-    (
-        <BrowserRouter>
-            <App/>
-        </BrowserRouter>
-    ),
-    document.getElementById('root')
-);
+function render() {
+    ReactDOM.render(
+        (
+            <BrowserRouter>
+                <App store={store}/>
+            </BrowserRouter>
+        ),
+        document.getElementById('root')
+    );
+}
 
-
-
-// import React from "react";
-// import ReactDOM from 'react-dom';
-// import {BrowserRouter} from 'react-router-dom';
-// import App from "./components/app/app";
-// ReactDOM.render(
-//     (
-//         <BrowserRouter>
-//             <App />
-//         </BrowserRouter>
-//     ),
-//      document.getElementById('root')
-// );
-//
-//
+// 初始化渲染
+render();
+// 订阅变化
+store.subscribe(render);

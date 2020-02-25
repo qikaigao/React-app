@@ -2,18 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df480789-e29a-4c61-8064-7b27e664044d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src-ui/components/app/app.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-ui/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-ui/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-ui/views/about/about.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-ui/views/home/home.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-ui/views/message-detail/message-detail.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-ui/views/message/message.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src-ui/views/news/news.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/redux/action-type.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/redux/actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/redux/reducers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/redux/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/app.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/about/about.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/home/home.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/message-detail/message-detail.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/message/message.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/news/news.jsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +132,7 @@
       <workItem from="1582445897153" duration="1586000" />
       <workItem from="1582482773228" duration="1149000" />
       <workItem from="1582487289191" duration="4758000" />
-      <workItem from="1582501998053" duration="23591000" />
+      <workItem from="1582501998053" duration="26976000" />
     </task>
     <task id="LOCAL-00001" summary="ini">
       <created>1582405767972</created>
@@ -230,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582574277277</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="counter-react">
+      <created>1582583994930</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1582583994930</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +260,8 @@
     <MESSAGE value="react-router-dom 多层路由" />
     <MESSAGE value="react-router-dom NavLink" />
     <MESSAGE value="Ant Design Mobile UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ant Design Mobile UI" />
+    <MESSAGE value="counter-react" />
+    <option name="LAST_COMMIT_MESSAGE" value="counter-react" />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="346" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582512141928">
@@ -266,26 +276,26 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="578" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.1027@0.23.1680.1027" timestamp="1582431719984" />
-    <state x="434" y="139" key="CommitChangelistDialog2" timestamp="1582574277034">
+    <state x="434" y="139" key="CommitChangelistDialog2" timestamp="1582583994729">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state x="434" y="139" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1582574277034" />
-    <state width="1638" height="254" key="GridCell.Tab.0.bottom" timestamp="1582582668780">
+    <state x="434" y="139" key="CommitChangelistDialog2/0.23.1680.1027@0.23.1680.1027" timestamp="1582583994729" />
+    <state width="1638" height="254" key="GridCell.Tab.0.bottom" timestamp="1582583996505">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="254" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1582582668780" />
-    <state width="1638" height="254" key="GridCell.Tab.0.center" timestamp="1582582668779">
+    <state width="1638" height="254" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1582583996505" />
+    <state width="1638" height="254" key="GridCell.Tab.0.center" timestamp="1582583996502">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="254" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1582582668779" />
-    <state width="1638" height="254" key="GridCell.Tab.0.left" timestamp="1582582668777">
+    <state width="1638" height="254" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1582583996502" />
+    <state width="1638" height="254" key="GridCell.Tab.0.left" timestamp="1582583996501">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="254" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1582582668777" />
-    <state width="1638" height="254" key="GridCell.Tab.0.right" timestamp="1582582668780">
+    <state width="1638" height="254" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1582583996501" />
+    <state width="1638" height="254" key="GridCell.Tab.0.right" timestamp="1582583996504">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="254" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1582582668780" />
+    <state width="1638" height="254" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1582583996504" />
     <state x="349" y="175" key="SettingsEditor" timestamp="1582447504343">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>

@@ -1,34 +1,22 @@
 import React, {Component} from "react";
-
-// import { Button, Toast } from 'antd-mobile';
+import * as actions from '../redux/actions';
 
 class App extends Component {
 
-    state = {
-        count: 0
-    };
+
 
     increment = () => {
         //    1. 得到选择增加数量
         const number = this.select.value * 1;
-
-        //    2. 得到原本count状态，并计算新的count
-        const count = this.state.count;
-
-        //    3.更新
-        this.setState({count: count + number});
-
+    //  调用store的方法更新状态
+        this.props.store.dispatch(actions.increment(number));
     };
 
     decrement = () => {
         //    1. 得到选择增加数量
         const number = this.select.value * 1;
 
-        //    2. 得到原本count状态，并计算新的count
-        const count = this.state.count;
-
-        //    3.更新
-        this.setState({count: count - number});
+        this.props.store.dispatch(actions.decrement(number));
 
     };
 
@@ -37,12 +25,12 @@ class App extends Component {
         const number = this.select.value * 1;
 
         //    2. 得到原本count状态
-        const count = this.state.count;
+        const count = this.props.store.getState()
 
         // 满足条件才更新状态
         if (count % 2 === 1) {
             // 3.更新
-            this.setState({count: count + number});
+            this.props.store.dispatch(actions.increment(number));
         }
     };
 
@@ -50,19 +38,17 @@ class App extends Component {
         //    1. 得到选择增加数量
         const number = this.select.value * 1;
 
-        //    2. 得到原本count状态
-        const count = this.state.count;
-
         //    3.延迟更新
         setTimeout(()=>{
-            this.setState({count: count + number});
+            this.props.store.dispatch(actions.increment(number));
         },1000);
 
     };
 
 
     render() {
-        const {count} = this.state;
+        const count = this.props.store.getState();
+        // debugger
         return (
             <div>
                 <p>Click {count} times</p>
